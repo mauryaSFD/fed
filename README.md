@@ -1,2 +1,2 @@
 # fed
-learning areas for front end developer
+learning area for front end developer

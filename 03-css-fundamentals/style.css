@@ -5,11 +5,17 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
   font-size: 26px;
-
   text-transform: uppercase;
   font-style: italic;
 }
@@ -24,14 +30,12 @@ h3 {
 
 h4 {
   font-size: 20px;
-
   text-transform: uppercase;
   text-align: center;
 }
 
 p {
   font-size: 22px;
-
   line-height: 1.5;
 }
 
@@ -39,6 +43,63 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#Copyright {
   font-size: 16px;
 }
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid blue;
+}
+
+/* sudo class selector example */
+li:first-child {
+  font-style: italic;
+}
+
+/* LVHA sudo class for <a> tags  */
+
+a:link {
+  color: #28af43;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+/* a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: teal;
+} */

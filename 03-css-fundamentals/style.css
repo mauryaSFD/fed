@@ -1,4 +1,11 @@
-h1,
+/* body rule will be inherited to all unless being overriden */
+
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+/* h1,
 h2,
 h3,
 h4,
@@ -6,7 +13,7 @@ p,
 li {
   font-family: sans-serif;
   color: #444;
-}
+} */
 
 h1,
 h2,
@@ -86,20 +93,24 @@ li:first-child {
 /* LVHA sudo class for <a> tags  */
 
 a:link {
-  color: #28af43;
+  color: #1098ad;
   text-decoration: none;
 }
 a:visited {
-  color: red;
+  color: #1098ad;
   text-decoration: none;
 }
 
 /* a:hover {
-  color: orangered;
+  color: #1098ad;
   font-weight: bold;
   text-decoration: underline;
 }
 
 a:active {
   background-color: teal;
+} */
+
+/* nav {
+  font-size: 18px;
 } */

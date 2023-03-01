@@ -1,7 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 body {
-  border: 5px solid black;
   font-family: sans-serif;
   line-height: 1.5;
+}
+.main-article {
+  border: 5px solid black;
 }
 
 article h2 {
@@ -10,8 +22,15 @@ article h2 {
   font-size: 22px;
 }
 
+ul,
+ol,
+li {
+  margin: 0 0 0 20px;
+}
+
 .main-heading {
   background-color: #d3d3d3;
+  padding: 10px;
 }
 
 .dollar {
@@ -23,6 +42,7 @@ article h2 {
   text-transform: uppercase;
   font-weight: bold;
   color: #878787;
+  margin-bottom: 20px;
 }
 /*  for links use LVHA  */
 
@@ -52,6 +72,7 @@ article h2 {
 .product-details {
   text-transform: uppercase;
   font-size: 16px;
+  margin-top: 20px;
 }
 .product-list {
   list-style: square;
@@ -62,6 +83,7 @@ article h2 {
   background-color: black;
   color: white;
   text-transform: uppercase;
+  width: 100%;
   /* cursor: pointer; */
   /* font-weight: bold; */
 }

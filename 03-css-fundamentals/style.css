@@ -30,6 +30,10 @@ li {
   margin-bottom: 60px;
 }
 
+.post-header {
+  margin-bottom: 40px;
+}
+
 nav {
   font-size: 18px;
 }
@@ -38,9 +42,6 @@ article {
   margin-bottom: 60px;
 }
 
-.post-header {
-  margin-bottom: 40px;
-}
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid blue;

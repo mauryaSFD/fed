@@ -13,6 +13,7 @@ body {
   line-height: 1.5;
 }
 .main-article {
+  margin-top: 50px;
   border: 5px solid black;
 }
 
@@ -20,12 +21,6 @@ article h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 22px;
-}
-
-ul,
-ol,
-li {
-  margin: 0 0 0 20px;
 }
 
 .main-heading {
@@ -76,6 +71,11 @@ li {
 }
 .product-list {
   list-style: square;
+  margin: 0 0 0 20px;
+}
+
+.product-list:last-child {
+  margin-bottom: 10px;
 }
 
 /*  buttons  */
@@ -84,6 +84,7 @@ li {
   color: white;
   text-transform: uppercase;
   width: 100%;
+  padding: 10px;
   /* cursor: pointer; */
   /* font-weight: bold; */
 }
@@ -91,6 +92,7 @@ li {
 .cart-button:hover {
   background-color: white;
   color: black;
-  border: none;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
   cursor: pointer;
 }
